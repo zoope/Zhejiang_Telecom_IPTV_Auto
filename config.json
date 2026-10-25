@@ -1,0 +1,11 @@
+{
+  "source_csv": "https://raw.githubusercontent.com/LionixQ/Zhejiang_Telecom_IPTV/main/Zhejiang_Multicast/Zhejiang_Multicast.csv",
+  "stream_base_url": "rtp://",
+  "logo_base_url": "/Logo/",
+  "epg_url": "https://myepg.org/EPG/Zhejiang_Unicast.xml.gz",
+  "output": "Zhejiang_Telecom_IPTV.m3u",
+  "fcc_address": "115.233.42.69:8027",
+  "fcc_type": "huawei",
+  "unicast_csv": "https://raw.githubusercontent.com/LionixQ/Zhejiang_Telecom_IPTV/main/Zhejiang_Unicast/Zhejiang_Unicast.csv",
+  "unicast_rtsp_host_override": "115.233.42.69"
+}
