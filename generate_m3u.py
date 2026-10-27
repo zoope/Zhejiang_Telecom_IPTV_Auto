@@ -94,14 +94,20 @@ def choose_unicast(multicast_row: dict[str, str], by_igmp: dict[str, list[dict[s
     return (same_resolution or candidates)[0]
 
 
-def build_catchup_source(unicast_row: dict[str, str] | None, host_override: str = "") -> str:
+def build_catchup_source(
+    unicast_row: dict[str, str] | None,
+    host_override: str = "",
+    channel_name: str = "",
+    catchup_override_channels: set[str] | None = None,
+) -> str:
     if not unicast_row:
         return ""
-    # The upstream CSV explicitly marks channels without replay support as
-    # TimeShift=0, TimeShiftLength=0 and BackTime=0. Do not advertise a
-    # catch-up URL for those channels: rtp2httpd would otherwise try a URL
-    # that the upstream RTSP server cannot serve.
-    if unicast_row.get("TimeShift", "").strip() != "1":
+    # The upstream CSV is authoritative for normal channels. A small,
+    # explicit exception list handles channels whose report has a stale or
+    # incomplete TimeShift flag but whose replay URL has been verified.
+    replay_flag = unicast_row.get("TimeShift", "").strip() == "1"
+    replay_override = normalize_channel_name(channel_name) in (catchup_override_channels or set())
+    if not replay_flag and not replay_override:
         return ""
     rtsp = unicast_row.get("ChannelURL_rtsp", "").strip()
     if not rtsp:
@@ -128,6 +134,11 @@ def generate(config: dict[str, str], csv_source: str | None = None, unicast_sour
     fcc_address = config.get("fcc_address", "").strip()
     fcc_type = config.get("fcc_type", "").strip()
     unicast_rtsp_host_override = config.get("unicast_rtsp_host_override", "").strip()
+    catchup_override_channels = {
+        normalize_channel_name(value)
+        for value in config.get("catchup_override_channels", [])
+        if str(value).strip()
+    }
     output: list[str] = [f'#EXTM3U x-tvg-url="{epg_url}"']
 
     for row in multicast_rows:
@@ -141,7 +152,12 @@ def generate(config: dict[str, str], csv_source: str | None = None, unicast_sour
         stream = clean_stream_address(row.get("播放地址", ""), stream_base, fcc_address, fcc_type)
         if not stream:
             continue
-        catchup_source = build_catchup_source(choose_unicast(row, by_igmp, by_name), unicast_rtsp_host_override)
+        catchup_source = build_catchup_source(
+            choose_unicast(row, by_igmp, by_name),
+            unicast_rtsp_host_override,
+            channel,
+            catchup_override_channels,
+        )
         catchup_attrs = f' catchup="default" catchup-source="{catchup_source}"' if catchup_source else ""
         output.append(
             f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{tvg_name}" '

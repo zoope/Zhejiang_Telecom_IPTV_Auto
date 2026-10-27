@@ -7,5 +7,8 @@
   "fcc_address": "115.233.42.69:8027",
   "fcc_type": "huawei",
   "unicast_csv": "https://raw.githubusercontent.com/LionixQ/Zhejiang_Telecom_IPTV/main/Zhejiang_Unicast/Zhejiang_Unicast.csv",
-  "unicast_rtsp_host_override": "115.233.42.69"
+  "unicast_rtsp_host_override": "115.233.42.69",
+  "catchup_override_channels": [
+    "吉林卫视"
+  ]
 }

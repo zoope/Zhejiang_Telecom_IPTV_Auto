@@ -8,7 +8,7 @@
 - Logo 路径：`/Logo/频道.png`
 - EPG：`https://myepg.org/EPG/Zhejiang_Unicast.xml.gz`
 - FCC：绍兴电信华为平台 `115.233.42.69:8027`，直播地址附加 `?fcc=115.233.42.69:8027&fcc-type=huawei`
-- 单播回看：定期从上游 `Zhejiang_Unicast.csv` 读取 `ChannelURL_rtsp`，生成 `catchup="default"` 和 `catchup-source="...playseek=..."`
+- 单播回看：定期从上游 `Zhejiang_Unicast.csv` 读取 `ChannelURL_rtsp`。通常只有 `TimeShift=1` 的频道生成 `catchup="default"` 和 `catchup-source="...playseek=..."`；吉林卫视已实测可回放，但上游当前 `TimeShift` 标记不完整，因此列入显式例外。CCTV3、CCTV5 等未验证频道不会因为存在直播 RTSP 地址而自动开启回放。
 
 订阅地址使用 GitHub Raw：
 
