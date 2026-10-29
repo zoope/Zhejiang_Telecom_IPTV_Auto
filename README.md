@@ -8,7 +8,7 @@
 - Logo 路径：`/Logo/频道.png`
 - EPG：`https://myepg.org/EPG/Zhejiang_Unicast.xml.gz`
 - FCC：绍兴电信华为平台 `115.233.42.69:8027`，直播地址附加 `?fcc=115.233.42.69:8027&fcc-type=huawei`
-- 单播回看：定期从上游 `Zhejiang_Unicast.csv` 读取 `ChannelURL_rtsp`。已有 `TimeShift=1` 的回放地址保持上游的 `/PLTV/` 形式；对于 `TimeShift` 为空或为 `0`、但仍有 `ChannelURL_rtsp` 的频道也生成回放参数，供逐个验证。吉林卫视是已确认的例外，回放路径切换为 `/TVOD/`，因为机顶盒使用 TVOD，而同一节目编号的 PLTV 在回放节点返回 404。所有回放地址都附加动态 `playseek`。
+- 单播回看：定期从上游 `Zhejiang_Unicast.csv` 读取 `ChannelURL_rtsp`。已有 `TimeShift=1` 的回放地址保持原来的路径；对于 `TimeShift` 为空或为 `0`、但仍有 `ChannelURL_rtsp` 的新增频道生成回放参数，并统一使用 `/TVOD/` 路径。吉林卫视也固定使用 `/TVOD/`。所有回放地址都附加动态 `playseek`。
 
 订阅地址使用 GitHub Raw：
 

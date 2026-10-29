@@ -119,10 +119,12 @@ def build_catchup_source(
     if host_override:
         port = f":{parts.port}" if parts.port else ""
         netloc = host_override + port
-    # Existing replay URLs are known to work as published.  Jilin is the
-    # verified exception: its replay node accepts TVOD while the equivalent
-    # PLTV URI returns 404, matching the set-top-box trace.
-    if normalize_channel_name(channel_name) in {"吉林卫视"}:
+    # Existing replay URLs are known to work as published. Newly added
+    # entries are the channels whose RTSP resource exists but whose TimeShift
+    # flag is empty; those resources use the TVOD namespace. Jilin remains an
+    # explicit override even if its upstream metadata changes.
+    use_tvod = (not replay_flag and allow_missing_timeshift) or replay_override
+    if use_tvod:
         replay_path = parts.path.replace("/PLTV/", "/TVOD/", 1)
     else:
         replay_path = parts.path
