@@ -99,25 +99,34 @@ def build_catchup_source(
     host_override: str = "",
     channel_name: str = "",
     catchup_override_channels: set[str] | None = None,
+    allow_missing_timeshift: bool = False,
 ) -> str:
     if not unicast_row:
         return ""
-    # The upstream CSV is authoritative for normal channels. A small,
-    # explicit exception list handles channels whose report has a stale or
-    # incomplete TimeShift flag but whose replay URL has been verified.
-    replay_flag = unicast_row.get("TimeShift", "").strip() == "1"
-    replay_override = normalize_channel_name(channel_name) in (catchup_override_channels or set())
-    if not replay_flag and not replay_override:
-        return ""
     rtsp = unicast_row.get("ChannelURL_rtsp", "").strip()
     if not rtsp:
+        return ""
+    # Keep existing catch-up entries controlled by the upstream TimeShift
+    # flag.  Some channels have a usable RTSP replay resource even though the
+    # report leaves TimeShift empty or zero; the config can opt those entries
+    # in without changing the already-published URLs for flagged channels.
+    replay_flag = unicast_row.get("TimeShift", "").strip() == "1"
+    replay_override = normalize_channel_name(channel_name) in (catchup_override_channels or set())
+    if not replay_flag and not replay_override and not allow_missing_timeshift:
         return ""
     parts = urlsplit(rtsp)
     netloc = parts.netloc
     if host_override:
         port = f":{parts.port}" if parts.port else ""
         netloc = host_override + port
-    base = urlunsplit((parts.scheme, netloc, parts.path, "", ""))
+    # Existing replay URLs are known to work as published.  Jilin is the
+    # verified exception: its replay node accepts TVOD while the equivalent
+    # PLTV URI returns 404, matching the set-top-box trace.
+    if normalize_channel_name(channel_name) in {"吉林卫视"}:
+        replay_path = parts.path.replace("/PLTV/", "/TVOD/", 1)
+    else:
+        replay_path = parts.path
+    base = urlunsplit((parts.scheme, netloc, replay_path, "", ""))
     return f"{base}?playseek={PLAYSEEK_TEMPLATE}"
 
 
@@ -134,6 +143,7 @@ def generate(config: dict[str, str], csv_source: str | None = None, unicast_sour
     fcc_address = config.get("fcc_address", "").strip()
     fcc_type = config.get("fcc_type", "").strip()
     unicast_rtsp_host_override = config.get("unicast_rtsp_host_override", "").strip()
+    allow_missing_timeshift = bool(config.get("catchup_from_rtsp_without_timeshift", False))
     catchup_override_channels = {
         normalize_channel_name(value)
         for value in config.get("catchup_override_channels", [])
@@ -157,6 +167,7 @@ def generate(config: dict[str, str], csv_source: str | None = None, unicast_sour
             unicast_rtsp_host_override,
             channel,
             catchup_override_channels,
+            allow_missing_timeshift,
         )
         catchup_attrs = f' catchup="default" catchup-source="{catchup_source}"' if catchup_source else ""
         output.append(

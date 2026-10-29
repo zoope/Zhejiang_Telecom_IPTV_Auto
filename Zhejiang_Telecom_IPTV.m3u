@@ -3,19 +3,19 @@
 rtp://233.50.201.118:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="/Logo/CCTV2.png" group-title="央视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221228083/10000100000000060000000002633372_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",CCTV2财经
 rtp://233.50.201.119:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="/Logo/CCTV3.png" group-title="央视",CCTV3综艺
+#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="/Logo/CCTV3.png" group-title="央视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229136/10000100000000060000000005809121_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",CCTV3综艺
 rtp://233.50.201.196:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="/Logo/CCTV4.png" group-title="央视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229474/139134403.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",CCTV4中文国际
 rtp://233.50.200.101:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="/Logo/CCTV5.png" group-title="央视",CCTV5体育
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="/Logo/CCTV5.png" group-title="央视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229114/10000100000000060000000005809143_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",CCTV5体育
 rtp://233.50.201.197:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="/Logo/CCTV5+.png" group-title="央视",CCTV5+体育赛事
+#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="/Logo/CCTV5+.png" group-title="央视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229201/52583204.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",CCTV5+体育赛事
 rtp://233.50.201.220:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="/Logo/CCTV6.png" group-title="央视",CCTV6电影
+#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="/Logo/CCTV6.png" group-title="央视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229161/10000100000000060000000005809142_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",CCTV6电影
 rtp://233.50.201.198:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="/Logo/CCTV7.png" group-title="央视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221228093/10000100000000060000000002633385_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",CCTV7国防军事
 rtp://233.50.201.120:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="/Logo/CCTV8.png" group-title="央视",CCTV8电视剧
+#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="/Logo/CCTV8.png" group-title="央视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229157/10000100000000060000000005809141_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",CCTV8电视剧
 rtp://233.50.201.199:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="/Logo/CCTV9.png" group-title="央视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221228112/10000100000000060000000002633384_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",CCTV9纪录
 rtp://233.50.201.121:5140?fcc=115.233.42.69:8027&fcc-type=huawei
@@ -31,33 +31,33 @@ rtp://233.50.201.246:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 rtp://233.50.201.124:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="/Logo/CCTV15.png" group-title="央视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221227993/10000100000000060000000000794054_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",CCTV15音乐
 rtp://233.50.200.133:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="/Logo/CCTV16.png" group-title="央视",CCTV16奥林匹克
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="/Logo/CCTV16.png" group-title="央视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229307/70526246.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",CCTV16奥林匹克
 rtp://233.50.201.192:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="/Logo/CCTV17.png" group-title="央视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229176/54864243.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",CCTV17农业农村
 rtp://233.50.200.113:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="环球奇观" tvg-name="环球奇观" tvg-logo="/Logo/环球奇观.png" group-title="央视",环球奇观
+#EXTINF:-1 tvg-id="环球奇观" tvg-name="环球奇观" tvg-logo="/Logo/环球奇观.png" group-title="央视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229483/152252603.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",环球奇观
 rtp://233.50.201.222:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="/Logo/CCTV16.png" group-title="4K超高清",CCTV16奥林匹克4K
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="/Logo/CCTV16.png" group-title="4K超高清" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229331/74036079.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",CCTV16奥林匹克4K
 rtp://233.50.201.63:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="/Logo/北京卫视4K.png" group-title="4K超高清",北京卫视4K
+#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="/Logo/北京卫视4K.png" group-title="4K超高清" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229453/128124469.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",北京卫视4K
 rtp://233.50.202.100:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="/Logo/广东卫视4K.png" group-title="4K超高清",广东卫视4K
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="/Logo/广东卫视4K.png" group-title="4K超高清" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229456/131699760.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",广东卫视4K
 rtp://233.50.202.101:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="/Logo/深圳卫视4K.png" group-title="4K超高清",深圳卫视4K
+#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="/Logo/深圳卫视4K.png" group-title="4K超高清" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229455/131699790.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",深圳卫视4K
 rtp://233.50.202.102:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="/Logo/浙江卫视.png" group-title="4K超高清" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229473/136086103.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",浙江卫视4K
 rtp://233.50.202.104:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="/Logo/东方卫视.png" group-title="4K超高清",东方卫视4K
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="/Logo/东方卫视.png" group-title="4K超高清" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229460/136083232.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",东方卫视4K
 rtp://233.50.202.105:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="/Logo/湖南卫视.png" group-title="4K超高清",湖南卫视4K
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="/Logo/湖南卫视.png" group-title="4K超高清" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229464/136083240.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",湖南卫视4K
 rtp://233.50.202.106:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="/Logo/江苏卫视.png" group-title="4K超高清",江苏卫视4K
+#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="/Logo/江苏卫视.png" group-title="4K超高清" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229468/136083267.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",江苏卫视4K
 rtp://233.50.202.107:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="/Logo/四川卫视.png" group-title="4K超高清",四川卫视4K
+#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="/Logo/四川卫视.png" group-title="4K超高清" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229470/136083195.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",四川卫视4K
 rtp://233.50.202.109:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="/Logo/山东卫视.png" group-title="4K超高清",山东卫视4K
+#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="/Logo/山东卫视.png" group-title="4K超高清" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229467/136083251.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",山东卫视4K
 rtp://233.50.202.108:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="多彩文体" tvg-name="多彩文体" tvg-logo="/Logo/多彩文体.png" group-title="4K超高清",多彩文体4K
+#EXTINF:-1 tvg-id="多彩文体" tvg-name="多彩文体" tvg-logo="/Logo/多彩文体.png" group-title="4K超高清" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229240/72486906.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",多彩文体4K
 rtp://233.50.200.52:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="BesTV-1" tvg-name="BesTV-1" tvg-logo="/Logo/BesTV.png" group-title="4K超高清",BesTV-1
 rtp://233.50.200.182:5140?fcc=115.233.42.69:8027&fcc-type=huawei
@@ -81,11 +81,11 @@ rtp://233.50.201.105:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 rtp://233.50.201.106:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="/Logo/北京卫视.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221228080/10000100000000060000000001063209_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",北京卫视
 rtp://233.50.201.107:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="纪实科教" tvg-name="纪实科教" tvg-logo="/Logo/纪实科教.png" group-title="卫视",纪实科教
+#EXTINF:-1 tvg-id="纪实科教" tvg-name="纪实科教" tvg-logo="/Logo/纪实科教.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229419/110036300.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",纪实科教
 rtp://233.50.202.34:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="/Logo/四川卫视.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229046/10000100000000060000000004835838_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",四川卫视
 rtp://233.50.201.139:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="/Logo/河北卫视.png" group-title="卫视",河北卫视
+#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="/Logo/河北卫视.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229050/10000100000000060000000004836297_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",河北卫视
 rtp://233.50.201.140:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="/Logo/辽宁卫视.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229042/10000100000000060000000004835836_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",辽宁卫视
 rtp://233.50.201.141:5140?fcc=115.233.42.69:8027&fcc-type=huawei
@@ -103,59 +103,59 @@ rtp://233.50.201.146:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 rtp://233.50.201.113:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="/Logo/湖北卫视.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221228102/10000100000000060000000002242149_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",湖北卫视
 rtp://233.50.201.114:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="/Logo/黑龙江卫视.png" group-title="卫视",黑龙江卫视
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="/Logo/黑龙江卫视.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221228068/10000100000000060000000002242148_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",黑龙江卫视
 rtp://233.50.201.115:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="/Logo/东方卫视.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221228140/10000100000000060000000002670196_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",东方卫视
 rtp://233.50.201.125:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="/Logo/甘肃卫视.png" group-title="卫视",甘肃卫视
+#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="/Logo/甘肃卫视.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229052/10000100000000060000000004969230_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",甘肃卫视
 rtp://233.50.200.163:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="/Logo/海南卫视.png" group-title="卫视",海南卫视
+#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="/Logo/海南卫视.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221227803/10000100000000060000000000304212_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",海南卫视
 rtp://233.50.200.165:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="/Logo/广西卫视.png" group-title="卫视",广西卫视
+#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="/Logo/广西卫视.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221227840/10000100000000060000000000304250_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",广西卫视
 rtp://233.50.200.136:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="/Logo/云南卫视.png" group-title="卫视",云南卫视
+#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="/Logo/云南卫视.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221227830/10000100000000060000000000304238_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",云南卫视
 rtp://233.50.200.115:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="/Logo/吉林卫视.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221227802/10000100000000060000000000304236_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",吉林卫视
+#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="/Logo/吉林卫视.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/TVOD/88888913/224/3221227802/10000100000000060000000000304236_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",吉林卫视
 rtp://233.50.200.164:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="三沙卫视" tvg-name="三沙卫视" tvg-logo="/Logo/三沙卫视.png" group-title="卫视",三沙卫视
 rtp://233.50.200.175:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="/Logo/内蒙古卫视.png" group-title="卫视",内蒙古卫视
+#EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="/Logo/内蒙古卫视.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229147/10000100000000060000000004969231_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",内蒙古卫视
 rtp://233.50.201.148:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="/Logo/青海卫视.png" group-title="卫视",青海卫视
+#EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="/Logo/青海卫视.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221227765/10000100000000060000000000304132_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",青海卫视
 rtp://233.50.201.65:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="/Logo/西藏卫视.png" group-title="卫视",西藏卫视
+#EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="/Logo/西藏卫视.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229457/134307492.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",西藏卫视
 rtp://233.50.202.43:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="/Logo/陕西卫视.png" group-title="卫视",陕西卫视
+#EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="/Logo/陕西卫视.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221227826/10000100000000060000000000304223_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",陕西卫视
 rtp://233.50.201.59:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="/Logo/兵团卫视.png" group-title="卫视",兵团卫视
+#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="/Logo/兵团卫视.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229461/134307530.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",兵团卫视
 rtp://233.50.202.44:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="/Logo/山西卫视.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221227787/10000100000000060000000000304213_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",山西卫视
 rtp://233.50.201.51:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="/Logo/宁夏卫视.png" group-title="卫视",宁夏卫视
+#EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="/Logo/宁夏卫视.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229462/134307486.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",宁夏卫视
 rtp://233.50.202.45:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="/Logo/新疆卫视.png" group-title="卫视",新疆卫视
+#EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="/Logo/新疆卫视.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229459/134307257.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",新疆卫视
 rtp://233.50.202.46:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="/Logo/CETV1.png" group-title="卫视",中国教育1台
+#EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="/Logo/CETV1.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221227968/10000100000000060000000000789246_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",中国教育1台
 rtp://233.50.200.169:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="/Logo/CETV4.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229128/10000100000000060000000005781889_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",中国教育4台
 rtp://233.50.200.174:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="/Logo/凤凰中文.png" group-title="卫视",凤凰中文
+#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="/Logo/凤凰中文.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229422/110077577.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰中文
 rtp://233.50.202.35:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="/Logo/凤凰资讯.png" group-title="卫视",凤凰资讯
+#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="/Logo/凤凰资讯.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229423/110077527.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰资讯
 rtp://233.50.202.36:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="/Logo/卡酷少儿.png" group-title="卫视",卡酷少儿
+#EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="/Logo/卡酷少儿.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229420/110036417.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",卡酷少儿
 rtp://233.50.202.33:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="/Logo/金鹰卡通.png" group-title="卫视" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229202/59229692.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",金鹰卡通
 rtp://233.50.201.73:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="/Logo/CGTN.png" group-title="国际" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221228108/10000100000000060000000002707382_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",CGTN
 rtp://233.50.201.126:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="CGTN西班牙语" tvg-name="CGTN西班牙语" tvg-logo="/Logo/CGTN西班牙语.png" group-title="国际",CGTN西班牙语
+#EXTINF:-1 tvg-id="CGTN西班牙语" tvg-name="CGTN西班牙语" tvg-logo="/Logo/CGTN西班牙语.png" group-title="国际" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229180/54864297.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",CGTN西班牙语
 rtp://233.50.201.36:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="CGTN法语" tvg-name="CGTN法语" tvg-logo="/Logo/CGTN法语.png" group-title="国际",CGTN法语
+#EXTINF:-1 tvg-id="CGTN法语" tvg-name="CGTN法语" tvg-logo="/Logo/CGTN法语.png" group-title="国际" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229271/54864338.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",CGTN法语
 rtp://233.50.201.37:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="CGTN阿拉伯语" tvg-name="CGTN阿拉伯语" tvg-logo="/Logo/CGTN阿拉伯语.png" group-title="国际",CGTN阿拉伯语
+#EXTINF:-1 tvg-id="CGTN阿拉伯语" tvg-name="CGTN阿拉伯语" tvg-logo="/Logo/CGTN阿拉伯语.png" group-title="国际" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229158/54864306.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",CGTN阿拉伯语
 rtp://233.50.201.38:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="CGTN俄罗斯语" tvg-name="CGTN俄罗斯语" tvg-logo="/Logo/CGTN俄罗斯语.png" group-title="国际",CGTN俄罗斯语
+#EXTINF:-1 tvg-id="CGTN俄罗斯语" tvg-name="CGTN俄罗斯语" tvg-logo="/Logo/CGTN俄罗斯语.png" group-title="国际" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229162/54864352.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",CGTN俄罗斯语
 rtp://233.50.201.39:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="浙江钱江都市" tvg-name="浙江钱江都市" tvg-logo="/Logo/钱江频道.png" group-title="地方" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229041/10000100000000060000000004799139_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",钱江频道
 rtp://233.50.201.132:5140?fcc=115.233.42.69:8027&fcc-type=huawei
@@ -185,13 +185,13 @@ rtp://233.50.201.177:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 rtp://233.50.202.32:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="余杭新闻" tvg-name="余杭新闻" tvg-logo="" group-title="地方",余杭新闻
 rtp://233.50.201.159:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="宁波1新闻" tvg-name="宁波1新闻" tvg-logo="/Logo/宁波新闻综合.png" group-title="地方",宁波1新闻
+#EXTINF:-1 tvg-id="宁波1新闻" tvg-name="宁波1新闻" tvg-logo="/Logo/宁波新闻综合.png" group-title="地方" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229199/10000100000000060000000005105223_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",宁波1新闻
 rtp://233.50.201.168:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="宁波2经济" tvg-name="宁波2经济" tvg-logo="/Logo/宁波经济生活.png" group-title="地方",宁波2经济
+#EXTINF:-1 tvg-id="宁波2经济" tvg-name="宁波2经济" tvg-logo="/Logo/宁波经济生活.png" group-title="地方" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229146/52584043.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",宁波2经济
 rtp://233.50.201.178:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="宁波3文体" tvg-name="宁波3文体" tvg-logo="/Logo/宁波都市文体.png" group-title="地方",宁波3文体
+#EXTINF:-1 tvg-id="宁波3文体" tvg-name="宁波3文体" tvg-logo="/Logo/宁波都市文体.png" group-title="地方" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229205/52584046.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",宁波3文体
 rtp://233.50.201.179:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="宁波4影视" tvg-name="宁波4影视" tvg-logo="/Logo/宁波影视剧.png" group-title="地方",宁波4影视
+#EXTINF:-1 tvg-id="宁波4影视" tvg-name="宁波4影视" tvg-logo="/Logo/宁波影视剧.png" group-title="地方" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229209/52584148.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",宁波4影视
 rtp://233.50.201.180:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="温州新闻综合" tvg-name="温州新闻综合" tvg-logo="/Logo/温州新闻综合.png" group-title="地方",温州新闻综合
 rtp://233.50.201.87:5140?fcc=115.233.42.69:8027&fcc-type=huawei
@@ -199,11 +199,11 @@ rtp://233.50.201.87:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 rtp://233.50.202.23:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="温州都市生活" tvg-name="温州都市生活" tvg-logo="/Logo/温州都市生活.png" group-title="地方",温州都市生活
 rtp://233.50.202.24:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="绍兴新闻综合" tvg-name="绍兴新闻综合" tvg-logo="/Logo/绍兴新闻综合.png" group-title="地方",绍兴新闻综合
+#EXTINF:-1 tvg-id="绍兴新闻综合" tvg-name="绍兴新闻综合" tvg-logo="/Logo/绍兴新闻综合.png" group-title="地方" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221228982/10000100000000060000000004011299_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",绍兴新闻综合
 rtp://233.50.201.156:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="湖州新闻综合" tvg-name="湖州新闻综合" tvg-logo="/Logo/湖州新闻综合.png" group-title="地方",湖州新闻综合
 rtp://233.50.201.158:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="金华新闻综合" tvg-name="金华新闻综合" tvg-logo="/Logo/金华新闻综合.png" group-title="地方",金华新闻综合
+#EXTINF:-1 tvg-id="金华新闻综合" tvg-name="金华新闻综合" tvg-logo="/Logo/金华新闻综合.png" group-title="地方" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221228987/10000100000000060000000004035009_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",金华新闻综合
 rtp://233.50.201.161:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="丽水新闻综合" tvg-name="丽水新闻综合" tvg-logo="/Logo/丽水新闻综合.png" group-title="地方",丽水新闻综合
 rtp://233.50.201.162:5140?fcc=115.233.42.69:8027&fcc-type=huawei
@@ -215,49 +215,49 @@ rtp://233.50.201.169:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 rtp://233.50.202.11:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="衢州公共" tvg-name="衢州公共" tvg-logo="/Logo/衢州公共.png" group-title="地方",衢州公共
 rtp://233.50.202.12:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="多彩文体" tvg-name="多彩文体" tvg-logo="/Logo/多彩文体.png" group-title="付费",多彩文体
+#EXTINF:-1 tvg-id="多彩文体" tvg-name="多彩文体" tvg-logo="/Logo/多彩文体.png" group-title="付费" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229240/72486906.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",多彩文体
 rtp://233.50.201.189:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="都市剧场" tvg-name="都市剧场" tvg-logo="/Logo/都市剧场.png" group-title="付费",都市剧场
+#EXTINF:-1 tvg-id="都市剧场" tvg-name="都市剧场" tvg-logo="/Logo/都市剧场.png" group-title="付费" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229244/72486950.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",都市剧场
 rtp://233.50.201.190:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="法治天地" tvg-name="法治天地" tvg-logo="/Logo/法治天地.png" group-title="付费" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229323/72486984.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",法治天地
 rtp://233.50.201.191:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="动漫秀场" tvg-name="动漫秀场" tvg-logo="/Logo/动漫秀场.png" group-title="付费",动漫秀场
+#EXTINF:-1 tvg-id="动漫秀场" tvg-name="动漫秀场" tvg-logo="/Logo/动漫秀场.png" group-title="付费" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229236/72486907.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",动漫秀场
 rtp://233.50.201.184:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="游戏风云" tvg-name="游戏风云" tvg-logo="/Logo/游戏风云.png" group-title="付费",游戏风云
+#EXTINF:-1 tvg-id="游戏风云" tvg-name="游戏风云" tvg-logo="/Logo/游戏风云.png" group-title="付费" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229289/72488480.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",游戏风云
 rtp://233.50.201.183:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="乐游" tvg-name="乐游" tvg-logo="/Logo/乐游.png" group-title="付费",乐游
+#EXTINF:-1 tvg-id="乐游" tvg-name="乐游" tvg-logo="/Logo/乐游.png" group-title="付费" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229285/72486834.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",乐游
 rtp://233.50.201.185:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="金色学堂" tvg-name="金色学堂" tvg-logo="/Logo/金色学堂.png" group-title="付费",金色学堂
+#EXTINF:-1 tvg-id="金色学堂" tvg-name="金色学堂" tvg-logo="/Logo/金色学堂.png" group-title="付费" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229315/72486946.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",金色学堂
 rtp://233.50.201.186:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="生活时尚" tvg-name="生活时尚" tvg-logo="/Logo/生活时尚.png" group-title="付费",生活时尚
+#EXTINF:-1 tvg-id="生活时尚" tvg-name="生活时尚" tvg-logo="/Logo/生活时尚.png" group-title="付费" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229277/72486909.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",生活时尚
 rtp://233.50.201.187:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="/Logo/快乐垂钓.png" group-title="付费",快乐垂钓
+#EXTINF:-1 tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="/Logo/快乐垂钓.png" group-title="付费" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229491/148775761.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",快乐垂钓
 rtp://233.50.201.109:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="新动漫" tvg-name="新动漫" tvg-logo="/Logo/新动漫.png" group-title="付费",新动漫
 rtp://233.50.201.221:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="东方财经" tvg-name="东方财经" tvg-logo="/Logo/东方财经.png" group-title="其他",东方财经
+#EXTINF:-1 tvg-id="东方财经" tvg-name="东方财经" tvg-logo="/Logo/东方财经.png" group-title="其他" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229471/139134633.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",东方财经
 rtp://233.50.201.128:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="第一财经" tvg-name="第一财经" tvg-logo="/Logo/第一财经.png" group-title="其他",第一财经
 rtp://233.50.200.125:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="环球旅游" tvg-name="环球旅游" tvg-logo="/Logo/环球旅游.png" group-title="其他",环球旅游
+#EXTINF:-1 tvg-id="环球旅游" tvg-name="环球旅游" tvg-logo="/Logo/环球旅游.png" group-title="其他" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229494/150343750.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",环球旅游
 rtp://233.50.202.31:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="生态环境" tvg-name="生态环境" tvg-logo="/Logo/生态环境.png" group-title="其他",生态环境
+#EXTINF:-1 tvg-id="生态环境" tvg-name="生态环境" tvg-logo="/Logo/生态环境.png" group-title="其他" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229475/148775850.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",生态环境
 rtp://233.50.202.103:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="江苏国际" tvg-name="江苏国际" tvg-logo="/Logo/江苏国际.png" group-title="其他",江苏国际
+#EXTINF:-1 tvg-id="江苏国际" tvg-name="江苏国际" tvg-logo="/Logo/江苏国际.png" group-title="其他" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221229494/150343750.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",江苏国际
 rtp://233.50.202.31:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="浙江之声广播" tvg-name="浙江之声广播" tvg-logo="/Logo/浙江之声广播.png" group-title="广播",浙江之声广播
+#EXTINF:-1 tvg-id="浙江之声广播" tvg-name="浙江之声广播" tvg-logo="/Logo/浙江之声广播.png" group-title="广播" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221228218/10000100000000060000000003102657_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",浙江之声广播
 rtp://233.50.201.79:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="浙江新闻广播" tvg-name="浙江新闻广播" tvg-logo="/Logo/浙江新闻广播.png" group-title="广播",浙江新闻广播
+#EXTINF:-1 tvg-id="浙江新闻广播" tvg-name="浙江新闻广播" tvg-logo="/Logo/浙江新闻广播.png" group-title="广播" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221228332/10000100000000060000000003102947_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",浙江新闻广播
 rtp://233.50.201.80:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="浙江经济广播" tvg-name="浙江经济广播" tvg-logo="/Logo/浙江经济广播.png" group-title="广播",浙江经济广播
+#EXTINF:-1 tvg-id="浙江经济广播" tvg-name="浙江经济广播" tvg-logo="/Logo/浙江经济广播.png" group-title="广播" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221228223/10000100000000060000000003102668_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",浙江经济广播
 rtp://233.50.201.81:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="浙江音乐调频" tvg-name="浙江音乐调频" tvg-logo="/Logo/浙江音乐调频.png" group-title="广播",浙江音乐调频
+#EXTINF:-1 tvg-id="浙江音乐调频" tvg-name="浙江音乐调频" tvg-logo="/Logo/浙江音乐调频.png" group-title="广播" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221228228/10000100000000060000000003102672_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",浙江音乐调频
 rtp://233.50.201.82:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="浙江交通之声" tvg-name="浙江交通之声" tvg-logo="/Logo/浙江交通之声.png" group-title="广播",浙江交通之声
+#EXTINF:-1 tvg-id="浙江交通之声" tvg-name="浙江交通之声" tvg-logo="/Logo/浙江交通之声.png" group-title="广播" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221228265/10000100000000060000000003102675_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",浙江交通之声
 rtp://233.50.201.83:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="浙江旅游之声" tvg-name="浙江旅游之声" tvg-logo="/Logo/浙江旅游之声.png" group-title="广播",浙江旅游之声
+#EXTINF:-1 tvg-id="浙江旅游之声" tvg-name="浙江旅游之声" tvg-logo="/Logo/浙江旅游之声.png" group-title="广播" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221228327/10000100000000060000000003102677_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",浙江旅游之声
 rtp://233.50.201.84:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="浙江城市之声" tvg-name="浙江城市之声" tvg-logo="/Logo/浙江城市之声.png" group-title="广播",浙江城市之声
+#EXTINF:-1 tvg-id="浙江城市之声" tvg-name="浙江城市之声" tvg-logo="/Logo/浙江城市之声.png" group-title="广播" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221228291/10000100000000060000000003102680_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",浙江城市之声
 rtp://233.50.201.85:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="浙江民生资讯广播" tvg-name="浙江民生资讯广播" tvg-logo="/Logo/浙江民生资讯广播.png" group-title="广播",浙江民生资讯广播
+#EXTINF:-1 tvg-id="浙江民生资讯广播" tvg-name="浙江民生资讯广播" tvg-logo="/Logo/浙江民生资讯广播.png" group-title="广播" catchup="default" catchup-source="rtsp://115.233.42.69/PLTV/88888913/224/3221228233/10000100000000060000000003102678_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",浙江民生资讯广播
 rtp://233.50.201.86:5140?fcc=115.233.42.69:8027&fcc-type=huawei
