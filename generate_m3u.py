@@ -99,6 +99,7 @@ def build_catchup_source(
     host_override: str = "",
     channel_name: str = "",
     catchup_override_channels: set[str] | None = None,
+    catchup_exclude_channels: set[str] | None = None,
     allow_missing_timeshift: bool = False,
 ) -> str:
     if not unicast_row:
@@ -112,6 +113,8 @@ def build_catchup_source(
     # in without changing the already-published URLs for flagged channels.
     replay_flag = unicast_row.get("TimeShift", "").strip() == "1"
     replay_override = normalize_channel_name(channel_name) in (catchup_override_channels or set())
+    if normalize_channel_name(channel_name) in (catchup_exclude_channels or set()):
+        return ""
     if not replay_flag and not replay_override and not allow_missing_timeshift:
         return ""
     parts = urlsplit(rtsp)
@@ -151,6 +154,11 @@ def generate(config: dict[str, str], csv_source: str | None = None, unicast_sour
         for value in config.get("catchup_override_channels", [])
         if str(value).strip()
     }
+    catchup_exclude_channels = {
+        normalize_channel_name(value)
+        for value in config.get("catchup_exclude_channels", [])
+        if str(value).strip()
+    }
     output: list[str] = [f'#EXTM3U x-tvg-url="{epg_url}"']
 
     for row in multicast_rows:
@@ -169,6 +177,7 @@ def generate(config: dict[str, str], csv_source: str | None = None, unicast_sour
             unicast_rtsp_host_override,
             channel,
             catchup_override_channels,
+            catchup_exclude_channels,
             allow_missing_timeshift,
         )
         catchup_attrs = f' catchup="default" catchup-source="{catchup_source}"' if catchup_source else ""
