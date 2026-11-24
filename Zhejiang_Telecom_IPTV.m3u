@@ -233,7 +233,7 @@ rtp://233.50.201.186:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 rtp://233.50.201.187:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="/Logo/快乐垂钓.png" group-title="付费",快乐垂钓
 rtp://233.50.201.109:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="新动漫" tvg-name="新动漫" tvg-logo="/Logo/新动漫.png" group-title="付费",新动漫
+#EXTINF:-1 tvg-id="新动漫" tvg-name="新动漫" tvg-logo="/Logo/新动漫.png" group-title="付费" catchup="default" catchup-source="rtsp://115.233.42.69/TVOD/88888913/224/3221229500/152252632.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",新动漫
 rtp://233.50.201.221:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="东方财经" tvg-name="东方财经" tvg-logo="/Logo/东方财经.png" group-title="其他",东方财经
 rtp://233.50.201.128:5140?fcc=115.233.42.69:8027&fcc-type=huawei
