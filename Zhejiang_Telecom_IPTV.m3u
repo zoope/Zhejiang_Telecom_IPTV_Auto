@@ -37,6 +37,8 @@ rtp://233.50.201.192:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 rtp://233.50.200.113:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="环球奇观" tvg-name="环球奇观" tvg-logo="/Logo/环球奇观.png" group-title="央视",环球奇观
 rtp://233.50.201.222:5140?fcc=115.233.42.69:8027&fcc-type=huawei
+#EXTINF:-1 tvg-id="CCTV-4K" tvg-name="CCTV-4K" tvg-logo="/Logo/CCTV-4K.png" group-title="4K超高清" catchup="default" catchup-source="rtsp://115.233.42.69/TVOD/88888913/224/3221229486/156724272.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",CCTV-4K
+rtp://233.50.202.110:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="/Logo/CCTV16.png" group-title="4K超高清",CCTV16奥林匹克4K
 rtp://233.50.201.63:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="/Logo/北京卫视4K.png" group-title="4K超高清",北京卫视4K
@@ -245,6 +247,8 @@ rtp://233.50.202.31:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 rtp://233.50.202.103:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="江苏国际" tvg-name="江苏国际" tvg-logo="/Logo/江苏国际.png" group-title="其他",江苏国际
 rtp://233.50.202.31:5140?fcc=115.233.42.69:8027&fcc-type=huawei
+#EXTINF:-1 tvg-id="足球频道" tvg-name="足球频道" tvg-logo="/Logo/足球频道.png" group-title="其他" catchup="default" catchup-source="rtsp://115.233.42.69/TVOD/88888913/224/3221229500/152252632.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",足球频道
+rtp://233.50.201.221:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="浙江之声广播" tvg-name="浙江之声广播" tvg-logo="/Logo/浙江之声广播.png" group-title="广播",浙江之声广播
 rtp://233.50.201.79:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="浙江新闻广播" tvg-name="浙江新闻广播" tvg-logo="/Logo/浙江新闻广播.png" group-title="广播",浙江新闻广播
