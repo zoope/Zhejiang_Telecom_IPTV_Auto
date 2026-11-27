@@ -195,11 +195,11 @@ rtp://233.50.201.178:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 rtp://233.50.201.179:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="宁波4影视" tvg-name="宁波4影视" tvg-logo="/Logo/宁波影视剧.png" group-title="地方",宁波4影视
 rtp://233.50.201.180:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="温州新闻综合" tvg-name="温州新闻综合" tvg-logo="/Logo/温州新闻综合.png" group-title="地方",温州新闻综合
+#EXTINF:-1 tvg-id="温州新闻综合" tvg-name="温州新闻综合" tvg-logo="/Logo/温州新闻综合.png" group-title="地方" catchup="default" catchup-source="rtsp://115.233.42.69/TVOD/88888913/224/3221228993/10000100000000060000000004199197_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",温州新闻综合
 rtp://233.50.201.87:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="温州经济科技" tvg-name="温州经济科技" tvg-logo="/Logo/温州经济科技.png" group-title="地方",温州经济科技
+#EXTINF:-1 tvg-id="温州经济科技" tvg-name="温州经济科技" tvg-logo="/Logo/温州经济科技.png" group-title="地方" catchup="default" catchup-source="rtsp://115.233.42.69/TVOD/88888913/224/3221229476/147415727.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",温州经济科技
 rtp://233.50.202.23:5140?fcc=115.233.42.69:8027&fcc-type=huawei
-#EXTINF:-1 tvg-id="温州都市生活" tvg-name="温州都市生活" tvg-logo="/Logo/温州都市生活.png" group-title="地方",温州都市生活
+#EXTINF:-1 tvg-id="温州都市生活" tvg-name="温州都市生活" tvg-logo="/Logo/温州都市生活.png" group-title="地方" catchup="default" catchup-source="rtsp://115.233.42.69/TVOD/88888913/224/3221229479/147415924.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",温州都市生活
 rtp://233.50.202.24:5140?fcc=115.233.42.69:8027&fcc-type=huawei
 #EXTINF:-1 tvg-id="绍兴新闻综合" tvg-name="绍兴新闻综合" tvg-logo="/Logo/绍兴新闻综合.png" group-title="地方" catchup="default" catchup-source="rtsp://115.233.42.69/TVOD/88888913/224/3221228982/10000100000000060000000004011299_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",绍兴新闻综合
 rtp://233.50.201.156:5140?fcc=115.233.42.69:8027&fcc-type=huawei
